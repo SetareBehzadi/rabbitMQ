@@ -1,7 +1,7 @@
 import pika
 
-
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+credential = pika.PlainCredentials('setare', 'setare')
+connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost', credentials=credential))
 chanel = connection.channel()
 
 chanel.queue_declare('one')
