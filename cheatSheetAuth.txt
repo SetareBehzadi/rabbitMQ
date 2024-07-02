@@ -1,0 +1,16 @@
+ 2002  rabbitmq-plugins
+ 2003  rabbitmq-plugins --help
+ 2004  sudo rabbitmq-plugins list
+ 2005  sudo rabbitmq-plugins enable rabbitmq_management
+ 2007  sudo rabbitmq-plugins directories
+ 2008  sudo rabbitmq-plugins disable rabbitmq_management
+ 2009  sudo rabbitmq-plugins list
+ 2013  sudo rabbitmq-plugins enable rabbitmq_management
+ 2014  sudo rabbitmq-plugins list
+ 2015  sudo rabbitmq-plugins list -m
+ 2017  sudo rabbitmq-plugins list -v
+ 2021  sudo rabbitmqctl add_user "setare" "setare"
+ 2022  sudo rabbitmqctl list_users
+ 2023  sudo rabbitmqctl set_user_tags setare administrator
+ 2024  sudo rabbitmqctl list_users
+ 2028  sudo rabbitmqctl set_permissions -p "/" "setare" ".*" ".*" ".*"
